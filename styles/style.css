@@ -249,7 +249,6 @@
 
   .gallery {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 192px 230px 318px;
     grid-column: 1 / -1;
     gap: 20px;
   }
@@ -284,9 +283,5 @@
 
   .section__content_wide {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .gallery {
-    grid-template-rows: 260px 315px 433px;
   }
 }
